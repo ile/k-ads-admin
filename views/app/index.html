@@ -1,0 +1,32 @@
+<import: src="./home">
+<import: src="./edit">
+<import: src="../error">
+
+<Title:>
+	Kantele app
+
+<Head:>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="/img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<Body:>
+	<view name="k-connection-alert"></view>
+	<view name="k-before-unload"></view>
+	<div class="header">
+	    <div class="content-center home-menu pure-menu pure-menu-horizontal">
+
+	        <ul class="pure-menu-list">
+	        	<li class="pure-menu-item"><a href="/" class="pure-menu-link"><i class="fa fa-home"></i> HOME</a></li>
+	            <li class="pure-menu-item"><a href="/edit" class="pure-menu-link">Add a new item</a></li>
+	        </ul>
+	    </div>
+	</div>
+
+    <div class="content-center">
+		<view name="{{$render.ns}}"></view>
+	</div>
+
+    <footer class="content-center">
+        &copy; My Awesome Site
+    </footer>

@@ -1,0 +1,34 @@
+{
+  "name": "k-ads-admin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee server.coffee"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "coffee-script": "*",
+    "coffeeify": "*",
+    "compression": "*",
+    "connect-redis": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "k-before-unload": "*",
+    "k-bundle": "*",
+    "k-client": "latest",
+    "k-connection-alert": "*",
+    "k-highway": "*",
+    "k-html-util": "*",
+    "k-livedb-mongo": "latest",
+    "k-model": "latest",
+    "k-parsing": "*",
+    "k-saddle": "*",
+    "k-serialize-object": "*",
+    "k-stylus": "*",
+    "k-templates": "*",
+    "k-tracks": "*",
+    "nib": "*",
+    "redis": "*"
+  }
+}
