@@ -9,10 +9,6 @@
     <a on-click="delete()" style="float:right" class="pure-button pure-button-warning">Delete</a>
   {{/}}
   <form role="form" class="pure-form pure-form-stacked" on-submit="done()">
-      <div class="pure-control-group{{if nameError}} has-error{{/}}">
-        <label for="name">Name</label>
-        <input type="text" class="form-control pure-u-1" as="nameInput" value="{{item.name}}" name="name" id="name" autofocus="{{!item.id}}">
-      </div>
 
       <div class="pure-control-group{{if dataError}} has-error{{/}}">
         <label for="data">Data</label>
